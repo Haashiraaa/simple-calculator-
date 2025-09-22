@@ -1,9 +1,10 @@
 # Simple Calculator 🔢
 
-A basic PPythoncalculator that can **add, ssubtract multiply, and divide** numbers.  
+A basic Python calculator that can add, subtract, multiply, and divide numbers.  
 It also lets you reuse the result of the last calculation in a new one.
 
-## operations Addition ➕
+## Operations
+- Addition ➕
 - Subtraction ➖
 - Multiplication ✖️
 - Division ➗ (with ZeroDivision protection 🚫)
