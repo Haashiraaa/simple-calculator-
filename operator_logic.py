@@ -5,8 +5,7 @@ This module defines the OperatorLogic class, which handles
 basic arithmetic operations such as addition, subtraction,
 multiplication, and division.
 
-Author: [Your Name or GitHub Handle]
-Date: [Optional]
+Author: [Haashiraaa]
 """
 
 import math

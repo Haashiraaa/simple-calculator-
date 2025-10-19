@@ -5,8 +5,8 @@ This module defines the CalculatorUi class, which manages
 user interaction for a simple command-line calculator.
 It handles menu display, user input, and reusing previous results.
 
-Author: [Your Name or GitHub Handle]
-Date: [Optional]
+Author: [Haashiraaa]
+
 """
 
 
