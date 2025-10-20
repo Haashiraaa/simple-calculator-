@@ -66,11 +66,11 @@ simple_calculator/
 
 Make sure you have Python 3.8+ installed.
 
-Clone the repository and install dependencies:
+Clone the repository and install dependencies:<b>
 
-git clone https://github.com/Haashiraaa/simple-calculator-.git
-cd simple-calculator-
-pip install -r requirements.txt
+git clone https://github.com/Haashiraaa/simple-calculator-.git<br>
+cd simple-calculator-<br>
+pip install -r requirements.txt<b>
 
 If you don’t have a requirements.txt, the only external dependency is:
 
