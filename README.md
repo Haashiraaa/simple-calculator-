@@ -33,7 +33,7 @@ Optional debug mode (powered by icecream) for development visibility
 
  Project Structure
 
-simple_calculator/
+simple_calculator/<br>
 │
 ├── operator_logic.py     # Handles arithmetic operations
 ├── calculator_ui.py      # Manages user interaction and menu flow
