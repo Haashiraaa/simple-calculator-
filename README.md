@@ -150,19 +150,19 @@ Enhanced readability and modular extensibility
 
 At program exit, the calculator displays a custom 3D ASCII signature:
 
-/----------------/
-             /|@@@@@@@@@@@@@@@/|
-            / |##############/ |
-           /  |#############/  |
-          /   |############/   |
-         /____|___________/    |
-         |    |HAASHIRAAA |    |
-         |    |___________|____|
-         |   /Github:     |   /
-         |  /@Haashiraaa  |  /
-         | /X:            | /
-         |/@Haashiraaa    |/
-         -----------------
+/----------------/<br>
+             /|@@@@@@@@@@@@@@@/|<br>
+            / |##############/ |<br>
+           /  |#############/  |<br>
+          /   |############/   |<br>
+         /____|___________/    |<br>
+         |    |HAASHIRAAA |    |<br>
+         |    |___________|____|<br>
+         |   /Github:     |   /<br>
+         |  /@Haashiraaa  |  /<br>
+         | /X:            | /<br>
+         |/@Haashiraaa    |/<br>
+         -----------------<br>
 
 
 ---
