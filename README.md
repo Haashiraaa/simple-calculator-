@@ -34,12 +34,12 @@ Optional debug mode (powered by icecream) for development visibility
  Project Structure
 
 simple_calculator/<br>
-│
-├── operator_logic.py     # Handles arithmetic operations
-├── calculator_ui.py      # Manages user interaction and menu flow
-├── maker.py              # Generates and displays the custom signature
-├── simple_calculator.py  # Main entry point (program controller)
-└── README.md             # Project documentation
+│<br>
+├── operator_logic.py     # Handles arithmetic operations<br>
+├── calculator_ui.py      # Manages user interaction and menu flow<br>
+├── maker.py              # Generates and displays the custom signature<br>
+├── simple_calculator.py  # Main entry point (program controller)<br>
+└── README.md             # Project documentation<br>
 
 
 ---
