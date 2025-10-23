@@ -1,20 +1,38 @@
+# Simple Calculator (Refactored)
 
+A small command-line calculator written in Python. It supports the four basic arithmetic operations with a clean, modular, object-oriented structure, a dynamic UI for input, and an optional animated signature on exit.
 
----
+## Features
 
-🧮 Simple Calculator (Refactored)
+- Add, Subtract, Multiply, Divide
+- Dynamic UI for user input and menu handling
+- Reuse the last result for chaining calculations
+- Graceful error handling (invalid input, division by zero)
+- Clean OOP design with separated logic and UI modules
+- Optional debug mode (powered by `icecream`)
+- Custom ASCII signature animation on exit
 
-A command-line calculator built with Python, featuring clean modular design, dynamic UI prompts, and a touch of personalized branding.
+## Project structure
 
-Originally written as a single script, this project has now been refactored into multiple well-documented modules for better maintainability, scalability, and readability.
+- simple_calculator/
+  - operator_logic.py     — arithmetic operations
+  - calculator_ui.py      — user interaction and menu flow
+  - maker.py              — generates and displays the signature animation
+  - simple_calculator.py  — main program / controller
+  - README.md             — project documentation
 
+## Requirements
 
----
+- Python 3.8+
+- Optional: icecream, emoji
 
- Features
+install the optional packages with:
 
-Four basic arithmetic operations: Add, Subtract, Multiply, Divide
+```bash
+pip install icecream emoji
+```
 
+<<<<<<< HEAD
 Dynamic UI system for handling user inputs and displaying menus
 
 Last-result reuse — easily chain your previous results into new calculations
@@ -71,37 +89,37 @@ Clone the repository and install dependencies:<b>
 git clone https://github.com/Haashiraaa/simple-calculator-.git<br>
 cd simple-calculator-<br>
 pip install -r requirements.txt<b>
+=======
+## Installation
 
-If you don’t have a requirements.txt, the only external dependency is:
+```bash
+git clone https://github.com/Haashiraaa/simple-calculator-.git
+cd simple-calculator-
+```
+>>>>>>> 44c2d79 (Updated README)
 
-pip install icecream emoji
+## Usage
 
+Run the program:
 
----
-
-▶ Usage
-
-Run the program with:
-
+```bash
 python simple_calculator.py
+```
 
-You’ll be greeted with a Main Menu:
+Main menu options:
 
-1. Add➕
-2. Subtract➖
-3. Multiply✖️
-4. Divide➗
-5. Quit🚫
+1. Add ➕  
+2. Subtract ➖  
+3. Multiply ✖️  
+4. Divide ➗  
+5. Quit 🚫
 
-Follow the on-screen instructions.
-You can type = when done entering numbers to view your result.
+Enter numbers one at a time. Type `=` when you are done entering numbers to see the result.
 
+## Example session
 
----
-
- Example Session
-
-Simple Calculator🔢
+```
+Simple Calculator 🔢
 
 Main Menu
 1. Add➕
@@ -118,38 +136,14 @@ number: 10
 number: 5
 number: =
 
- = 15
+= 15
+```
 
+## Exit Signature (example)
 
----
+When the program exits it can display a custom ASCII signature. Example:
 
- Refactoring Summary
-
-Converted from procedural to object-oriented architecture
-
-Split logic into 3 clean modules:
-
-OperatorLogic → arithmetic operations
-
-CalculatorUi → UI interaction and input handling
-
-Signature → animated branding art
-
-
-Added PEP 8 compliance, docstrings, and inline comments
-
-Integrated icecream debugging and graceful exception handling
-
-Enhanced readability and modular extensibility
-
-
-
----
-
- Example Output
-
-At program exit, the calculator displays a custom 3D ASCII signature:
-
+<<<<<<< HEAD
 /----------------/<br>
              /|@@@@@@@@@@@@@@@/|<br>
             / |##############/ |<br>
@@ -163,14 +157,33 @@ At program exit, the calculator displays a custom 3D ASCII signature:
          | /X:            | /<br>
          |/@Haashiraaa    |/<br>
          -----------------<br>
+=======
+```
+/----------------/
+             /|@@@@@@@@@@@@@@@/|
+            / |##############/ |
+           /  |#############/  |
+          /   |############/   |
+         /____|___________/    |
+         |    |HAASHIRAAA |    |
+         |    |___________|____|
+         |   /Github:     |   /
+         |  /@Haashiraaa  |  /
+         | /X:            | /
+         |/@Haashiraaa    |/
+         -----------------
+```
+>>>>>>> 44c2d79 (Updated README)
 
+## Refactoring notes
 
----
+- Converted from a single procedural script to an OOP design
+- Split concerns into:
+  - OperatorLogic (arithmetic)
+  - CalculatorUi (input & menus)
+  - Maker (signature)
+- Added docstrings, PEP 8 improvements, and optional debugging hooks
 
+## License
 
----
-
- License
-
-This project is open-source and available under the MIT License.
-
+This project is open-source under the MIT License.
